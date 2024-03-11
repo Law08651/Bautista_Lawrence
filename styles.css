@@ -1,0 +1,110 @@
+/* Author: Lawrence C. Bautista */
+
+/* Page Body */
+body {
+    font-family: Arial, sans-serif; /* Using Arial font for the page body */
+    text-align: center;
+    background-color: white; /* Custom background color */
+    color: #333; /* Custom text color */
+	
+}
+
+/* Table Styling */
+table {
+    width: 85%; /* Occupying 85% of the page body width */
+    margin:0 auto; /* Centering the table */
+    border: 2px;
+	border-style: solid;
+	background-color: white;
+	border-spacing:5;
+	column-rule-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Cell borders */
+    text-align: center; /* Centering text within cells */
+}
+
+th {
+    background-color: black; /* Header background color */
+    color: white; /* Header text color */
+    font-weight: bold;
+    font-style: italic;
+}
+.p_e{
+	background-color: #FFB200;
+}
+.gec108{
+	background-color: #0083FF;
+}
+.itep206{
+	background-color: #74FF00;
+}
+.itep205{
+	background-color:  #00FFBD;
+}
+.itel203{
+	background-color: #FF30B7;
+}
+.itep204{
+	background-color: #CD30FF;
+}
+.itep207{
+	background-color: #FF3030;
+}
+
+
+/* Adjusting column widths */
+th:first-child,
+td:first-child {
+    width: 10%; /* First column width */
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+    width: 15%; /* Remaining columns width */
+}
+
+/* Style for cells with class 'same' */
+
+
+/* Hyperlink */
+a {
+    color: blue; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Image */
+img {
+    max-width: 200px; /* Maximum width of the image */
+    max-height: 200px; /* Maximum height of the image */
+}
+@media print {
+    /* Adjusting font size for printing */
+    body, table, th, td {
+        font-size: 10px;
+    }
+
+    /* Adjusting padding for printing */
+    th, td {
+        padding: 5px;
+    }
+
+    /* Adjusting table width for printing */
+    table {
+        width: 100%;
+        margin: 0;
+    }
+	img {
+    max-width: 200px; /* Maximum width of the image */
+    max-height: 200px; /* Maximum height of the image */
+    filter: grayscale(100%); /* Convert image to black and white */
+}
+
+/* Facebook link text color */
+a[href="https://www.facebook.com/Bautista.Lawrence08"] {
+    color: black; /* Facebook link text color */
+}
+}
+
